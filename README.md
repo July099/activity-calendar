@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  一个简洁、高效的活动日历管理工具，帮助用户追踪和管理各类活动。
+  一个简洁、高效的活动日历管理工具，帮助用户追踪和管理公司各类活动。
 </p>
 
 ---
@@ -30,6 +30,11 @@
 ### 在线演示
 
 👉 [Live Demo](https://your-username.github.io/activity-calendar)
+<img width="1440" height="900" alt="01-login" src="https://github.com/user-attachments/assets/0d2a21d2-26df-4d3c-9480-fd5ee3d15318" />
+<img width="1440" height="988" alt="08-may-with-events" src="https://github.com/user-attachments/assets/9a5c47c3-1149-47f8-b7f2-2a3b01ce5c34" />
+<img width="1440" height="988" alt="09-june-with-events" src="https://github.com/user-attachments/assets/b5f68547-9bc7-43f3-86ec-db28b0a6d20a" />
+<img width="1440" height="1926" alt="10-year-view-with-events" src="https://github.com/user-attachments/assets/b1964dd1-c2df-4f01-9bff-3673b4dbb621" />
+
 
 ### 本地运行
 
