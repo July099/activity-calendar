@@ -1,0 +1,163 @@
+/* 小米品牌色 */
+:root {
+  --mi-orange: #FF6900;
+  --mi-orange-light: #FF8C42;
+  --mi-orange-dark: #E55E00;
+  --mi-black: #000000;
+  --mi-white: #FFFFFF;
+  --mi-gray-100: #F5F5F5;
+  --mi-gray-200: #EEEEEE;
+  --mi-gray-300: #E0E0E0;
+  --mi-gray-400: #BDBDBD;
+  --mi-gray-500: #9E9E9E;
+  --mi-gray-600: #757575;
+  --mi-gray-700: #616161;
+  --mi-gray-800: #424242;
+  --mi-gray-900: #212121;
+  --mi-text: #333333;
+  --mi-text-secondary: #666666;
+  
+  /* 活动颜色 */
+  --event-red: #FF5252;
+  --event-blue: #448AFF;
+  --event-green: #69F0AE;
+  --event-yellow: #FFD740;
+  --event-purple: #E040FB;
+  --event-cyan: #18FFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', sans-serif;
+  background-color: var(--mi-gray-100);
+  color: var(--mi-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* 通用按钮样式 */
+.mi-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.mi-btn-primary {
+  background-color: var(--mi-orange);
+  color: white;
+}
+
+.mi-btn-primary:hover {
+  background-color: var(--mi-orange-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 105, 0, 0.3);
+}
+
+.mi-btn-secondary {
+  background-color: var(--mi-gray-200);
+  color: var(--mi-text);
+}
+
+.mi-btn-secondary:hover {
+  background-color: var(--mi-gray-300);
+}
+
+.mi-btn-text {
+  background: transparent;
+  color: var(--mi-orange);
+  padding: 8px 16px;
+}
+
+.mi-btn-text:hover {
+  background-color: rgba(255, 105, 0, 0.1);
+}
+
+/* 卡片样式 */
+.mi-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+/* 输入框样式 */
+.mi-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--mi-gray-300);
+  border-radius: 12px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.mi-input:focus {
+  border-color: var(--mi-orange);
+}
+
+/* 动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mi-gray-200);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--mi-gray-400);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mi-gray-500);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .mi-card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+  
+  .mi-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}

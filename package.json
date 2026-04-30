@@ -1,0 +1,41 @@
+{
+  "name": "activity-calendar",
+  "version": "1.0.0",
+  "description": "活动日历管理系统 - 纯前端实现",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "keywords": [
+    "calendar",
+    "activity",
+    "event",
+    "vue3",
+    "activity-management",
+    "frontend"
+  ],
+  "author": "your-name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/activity-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/activity-calendar/issues"
+  },
+  "homepage": "https://github.com/your-username/activity-calendar#readme"
+}
